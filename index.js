@@ -57,7 +57,7 @@ const displayQuiz = (data) => {
     quizContainer.innerHTML = "";
     return;
   }
-console.log(data);
+
 
   data.forEach((quiz, i) => {
     quizContainer.innerHTML += `<div class="m-3 py-3 px-4 shadow-sm rounded">
@@ -110,7 +110,7 @@ document.querySelector("#submit").addEventListener("click", () => {
 
   // data setting on local storage and getting data from local storage
   let storage = JSON.parse(localStorage.getItem('results'));
-  console.log(storage);
+ 
   if (storage) {
     localStorage.setItem(
       "results",
