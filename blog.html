@@ -7,18 +7,25 @@
     <title>My Blog</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="m-10">
+<body class="m-10 bg-zinc-700 font-serif text-justify text-slate-300">
    <div class="py-5">
-    <h2 class="text-xl"><span class="bg-orange-200 px-2 rounded">Question 1:</span>What is the difference among Map, Filter, ForEach and Find?</h2>
-    <p class="text-xl ml-5"><span class="bg-green-600 text-white px-2 rounded">Answer</span> <br> Map return a new array. <br> Filter return a new array of an array's element which fulfill condition.<br> ForEach return each value of an array. <br> Find return first element of an array's element which fulfill condition.</p>
+    <h2 class="text-xl"><span class="bg-orange-700 px-2 rounded">Question 1:</span>What is the difference among Map, Filter, ForEach and Find?</h2>
+    <p class="text-lg ml-5"><span class="bg-green-600 text-white px-2 rounded">Answer</span> <br> Map return a new array. <br> Filter return a new array of an array's element which fulfill condition.<br> ForEach return each value of an array. <br> Find return first element of an array's element which fulfill condition.</p>
    </div>
    <div class="text-xl py-5">
-    <h2><span class="bg-orange-200 px-2 rounded">Question 2:</span> What is the difference among Local storage, Session storage and Cookies</h2>
-    <p><span class="bg-green-600 text-white px-2 rounded">Answer</span> <br> Local sorage data is not cleared if the the page is open in new tab or the browser is closed or reopened <br> Session storage is cleared with session ends. if the page is opened in new tab  or  page is closed then storage is cleared <br>When a user visit a site then some information store in the browser this is cookies. It is cleared when the browser is closed.</p>
+    <h2><span class="bg-orange-700 px-2 rounded">Question 2:</span> What is the difference among Local storage, Session storage and Cookies?</h2>
+    <p class="text-lg ml-5"><span class="bg-green-600 text-white px-2 rounded">Answer</span> <br> Local sorage data is not cleared if the the page is open in new tab or the browser is closed or reopened. <br> Session storage is cleared with session ends. if the page is opened in new tab  or  page is closed then storage is cleared. <br>When a user visit a site then some information store in the browser this is cookies. It is cleared when the browser is closed.</p>
    </div>
    <div class="text-xl py-5">
-    <h2><span class="bg-orange-200 px-2 rounded">Question 3:</span>What is Event loop? How does it work? </h2>
-    <p><span class="bg-green-600 text-white px-2 rounded">Answer</span><br>Event loop is middler of Call stack and Callback queu. Asynchronous works store in Callback queue. when Call stack is free then Event loop as middler send works which is stored in Callback queue to Call stack</p>
+    <h2><span class="bg-orange-700 px-2 rounded">Question 3:</span>What is Event loop? How does it work? </h2>
+    <p class="text-lg ml-5"><span class="bg-green-600 text-white px-2 rounded">Answer</span><br>Event loop is middler of Call stack and Callback queu. Asynchronous works store in Callback queue. when Call stack is free then Event loop as middler send works which is stored in Callback queue to Call stack.</p>
+   </div>
+   <div class="text-xl py-5">
+    <h2 class="underline">Works of quizTimer function:</h2>
+    <p class="text-lg ml-5"> QuizTimer function create time of minutes and second. when second is more than 60 then color of timer changed which of work of the function. The function off timer when answer is submitted.  </p>
+    <br>
+    <h2 class="underline">Works of chooseQuiz function:</h2>
+    <p class="text-lg ml-5">This function push in  answer array if answer is not exist. If answer element id is exist then compare  with others answer element id . If compare is true then the function execute  splice  method on answer array. Display  element of answer array by calling displayAnswers(). </p>
    </div>
 </body>
 </html>
